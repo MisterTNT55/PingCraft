@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PingCrafts</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .container {
+    background: rgba(0,0,0,0.3);
+    padding: 40px 60px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    max-width: 360px;
+    width: 90vw;
+  }
+
+  h1 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 2.2rem;
+  }
+
+  p {
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .btn-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  a.download-btn {
+    text-decoration: none;
+    background: #fff;
+    color: #4a90e2;
+    font-weight: 700;
+    padding: 14px 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 14px rgba(255,255,255,0.6);
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    user-select: none;
+  }
+
+  a.download-btn:hover {
+    background: #4a90e2;
+    color: white;
+    box-shadow: 0 8px 24px rgba(255,255,255,0.9);
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Télécharge ton fichier</h1>
+    <p>Choisis le format qui te convient :</p>
+    <div class="btn-group">
+      <a href="https://pixeldrain.com/u/eVYD9hCE" download class="download-btn">Télécharger ZIP (fichiers python inclus)</a>
+      <a href="https://pixeldrain.com/u/K7rdutxg" download class="download-btn">Télécharger RAR (.exe seul)</a>
+    </div>
+    <p>Cela vous renverras sur <a href="https://pixeldrain.com" style="text-decoration: none;">pixeldrain</a>.</p>
+  </div>
+</body>
+</html>
